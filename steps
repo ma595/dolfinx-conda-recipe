@@ -3,7 +3,8 @@ instructions for creating version with hashes as before - known to be working.
 eval "$(/rds/project/rds-5mCMIDBOkPU/ma595/fenics/conda/new-conda/miniconda3/bin/conda shell.bash hook)"
 conda create --name static-versions
 conda activate static-versions
-conda install conda-build
+conda install conda-build anaconda-client
+conda config --set anaconda_upload no
 conda-build -c conda-forge ./ --skip-existing --debug |& tee -a conda-build.out
 
 conda search 'xtensor[channel=conda-forge, subdir=linux-64]'
