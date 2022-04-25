@@ -61,12 +61,14 @@ outputs:
          - liblapack
          - libblas
          - xtl=0.7.2
+         - pybind11=2.9.2 # 
        run:
          - xtensor=0.24.1
          - xtensor-blas
          - liblapack
          - libblas
          - xtl=0.7.2
+         - pybind11=2.9.2 # 
 
    - name: fenics-basix
      version: {{ version }}

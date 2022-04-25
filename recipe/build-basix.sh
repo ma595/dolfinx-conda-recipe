@@ -11,5 +11,5 @@ cmake -DCMAKE_BUILD_TYPE=Release \
       -DCMAKE_INSTALL_PREFIX=${PREFIX} \
       -DCMAKE_LIBRARY_PATH=$LIBRARY_PATH \
       -B build-dir -S .
-cmake --build build-dir
-cmake --install build-dir
+cmake --build build-dir --parallel
+cmake --install build-dir 

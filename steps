@@ -21,3 +21,17 @@ fenics-os:
 CMake Error at cpp/CMakeLists.txt:43 (find_package):
   Could not find a configuration file for package "xtensor" that is
     compatible with requested version range "0.23.10...<0.25".
+
+# error 2 
+-- Found Python3: /home/ubuntu/fenics/miniconda3/envs/florianorig/bin/python3.8 (found version "3.8.13") found components: Interpreter Development.Module
+CMake Error at python/CMakeLists.txt:39 (find_package):
+  Could not find a package configuration file provided by "pybind11" with any
+  of the following names:
+
+    pybind11Config.cmake
+    pybind11-config.cmake
+
+  Add the installation prefix of "pybind11" to CMAKE_PREFIX_PATH or set
+  "pybind11_DIR" to a directory containing one of the above files.  If
+  "pybind11" provides a separate development package or SDK, be sure it has
+  been installed.
