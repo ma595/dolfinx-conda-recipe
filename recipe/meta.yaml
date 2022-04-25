@@ -56,13 +56,13 @@ outputs:
          - make
          - cmake
        host:
-         - xtensor=0.23.4
+         - xtensor=0.24.1
          - xtensor-blas
          - liblapack
          - libblas
          - xtl=0.7.2
        run:
-         - xtensor=0.23.4
+         - xtensor=0.24.1
          - xtensor-blas
          - liblapack
          - libblas
@@ -160,7 +160,7 @@ outputs:
          - petsc
          - slepc
          - liblapack
-         - xtensor=0.23.4
+         - xtensor=0.24.1
          - xtensor-blas
          - {{ pin_subpackage("fenics-ffcx", exact=True) }}
          # need to list libnetcdf and netcdf-fortran twice to get version
@@ -177,7 +177,7 @@ outputs:
          - pkgconfig
          - ptscotch
          - suitesparse
-         - xtensor
+         - xtensor=0.24.1
          - xtensor-blas
          - zlib
          - {{ pin_subpackage("fenics-ffcx", exact=True) }}

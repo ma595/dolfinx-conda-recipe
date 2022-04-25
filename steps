@@ -12,3 +12,12 @@ conda search 'petsc[channel=conda-forge, subdir=linux-64]'
 conda search conda-forge::petsc
 conda search 'petsc=3.16.0'
 conda search 'petsc=3.16.0 *real*'
+
+
+fenics-os:
+~/fenics/original-recipe/newrecipe/recipe
+
+# error 1
+CMake Error at cpp/CMakeLists.txt:43 (find_package):
+  Could not find a configuration file for package "xtensor" that is
+    compatible with requested version range "0.23.10...<0.25".
