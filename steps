@@ -11,3 +11,7 @@ conda search 'petsc[channel=conda-forge, subdir=linux-64]'
 conda search conda-forge::petsc
 conda search 'petsc=3.16.0'
 conda search 'petsc=3.16.0 *real*'
+
+/home/ubuntu/fenics/miniconda3/envs/florianorig/lib/python3.8/site-packages/conda/models/records.py
+
+https://docs.conda.io/_/downloads/conda-build/en/latest/pdf/
