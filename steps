@@ -35,3 +35,20 @@ CMake Error at python/CMakeLists.txt:39 (find_package):
   "pybind11_DIR" to a directory containing one of the above files.  If
   "pybind11" provides a separate development package or SDK, be sure it has
   been installed.
+
+git show -s --format=%ci f960aa1fd0184e82f34d1cd5bf7a7f581089fd01
+
+# error 3
+  File "/home/ubuntu/fenics/miniconda3/envs/florianorig/lib/python3.8/site-packages/conda/models/records.py", line 345, in combined_depends
+    result = {ms.name: ms for ms in MatchSpec.merge(self.depends)}
+  File "/home/ubuntu/fenics/miniconda3/envs/florianorig/lib/python3.8/site-packages/conda/models/match_spec.py", line 478, in merge
+    reduce(lambda x, y: x._merge(y, union), group) if len(group) > 1 else group[0]
+  File "/home/ubuntu/fenics/miniconda3/envs/florianorig/lib/python3.8/site-packages/conda/models/match_spec.py", line 478, in <lambda>
+    reduce(lambda x, y: x._merge(y, union), group) if len(group) > 1 else group[0]
+  File "/home/ubuntu/fenics/miniconda3/envs/florianorig/lib/python3.8/site-packages/conda/models/match_spec.py", line 509, in _merge
+    final = this_component.merge(that_component)
+  File "/home/ubuntu/fenics/miniconda3/envs/florianorig/lib/python3.8/site-packages/conda/models/match_spec.py", line 760, in merge
+    raise ValueError("Incompatible component merge:\n  - %r\n  - %r"
+ValueError: Incompatible component merge:
+  - 'mpi_openmpi_*'
+  - 'mpi_openmpi_tempest*'
