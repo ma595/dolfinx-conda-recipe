@@ -8,13 +8,13 @@ source:
      # sha256: fe1832e2284f9c7fbd60421adc8bef05ba78a92c5ebc016839209fafaaead414
      sha256: 130fdc09bb7fcd39dcd2618426912b8a25a03431d94575711068b38c666b4337
      folder: ufl
-   - url: https://github.com/FEniCS/basix/archive/refs/heads/main.zip
+   - url: https://github.com/FEniCS/basix/archive/03ff09ca035ad393939f60db5a8a3eb032844c5d.zip
      # sha256: a7323f67b788f4fcd4dd5530f27d1325b75d43c87a71ebfa66aecbe1a0a52982
-     sha256: bd91ab1854930a8ac69ee39335560668dd0c490d888152fe927f57a399d2d691
+     sha256: 970eb0ed2aa40294c6afd86800e79919f920f87f2059d6eb5eedc29975acce7f
      folder: basix
-   - url: https://github.com/FEniCS/ffcx/archive/refs/heads/main.zip
+   - url: https://github.com/FEniCS/ffcx/archive/69d109d44c43f0f6cb945455ce035624a307f2dd.zip
      # sha256: f50c202b8bb3252a57c3bc5626ecbf664abcf9edd210a54961d3707cb6908340
-     sha256: 73284806698832d5e4680b4a4e99220687e60e1b8327cb917c1fb7382f6a29cf
+     sha256: 8bd42380a77db23df7e1a7d2e14e39b0d01826eb2fa89bbddcbd2ab75e05922a
      folder: ffcx
    - url: https://github.com/FEniCS/dolfinx/archive/f960aa1fd0184e82f34d1cd5bf7a7f581089fd01.zip
      sha256: b67c1f4ffc5f27252de1caa38611e7ca58eb83a58f3345ff1b3cdfd84e15f1ee
